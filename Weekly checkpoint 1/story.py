@@ -1,4 +1,5 @@
-rectangle.py
+def main():
+    rectangle.py
 #planet = input("Planet:")
 # #Separation
 # print("Hello", planet)
@@ -23,6 +24,8 @@ print(f"At dawn the sky turned {color}, and the air felt {adj}. So I decided tod
 
 if_name_==_"main_":
     main()
+
+
 
 
 
