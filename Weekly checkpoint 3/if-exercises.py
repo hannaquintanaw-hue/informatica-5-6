@@ -1,26 +1,27 @@
 def main():
-        integer = int(input("Give me an integer number:"))
-        if integer < 0:
-                print(integer * -1)
-        else
-if number < 0:
-        print(number*-1)
+        if number < 0:
+                print(number*-1)
+        else:
+                print(number)
+        print("input calculator")
 
-else:
-        print(number)
-print("Intput Calculator")
-number 1 = float(input("Select fisrt numer"))
+        number1 = float(input("Select first number: "))
 
+        number2 = float(input("Select second number: "))
 
-if opperation == "add":
+        operation = input("Type of opperation: ")
+
+        if operation == "add":
         print(number1 + number2)
 
-elif oppperation == "subtract":
+         elif operation == "subtract":
         print(number1 - number2)
+          elif operation == "multiply":
+        print(number1 * number2)
+         else:
+        print("Not possible")
 
-else:
-        print
-
+    print("String Calculator")
 
 
 
