@@ -4,7 +4,7 @@ def main():
     while answer != "Yes!":
         answer = input("Are we there yet? ").title().strip()
         if answer == "Yes":
-            followup = input("Really? ").title().strip()
+            followup = input("Really? ") 
         if followup == "Yes":
             break
 
