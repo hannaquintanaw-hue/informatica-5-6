@@ -3,7 +3,7 @@ def main():
     coin = ["heads", "tails"]
     attempts = 3
     while attempts > 0:
-        flip = random.choise(coin)
+        flip = random.choice(coin)
         guess = input("Headsor tails?: ").strip().lower()
 
         print("The coin landedon", flip)
@@ -16,7 +16,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
+
 
 
 
