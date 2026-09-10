@@ -5,6 +5,6 @@ def main():
     Transistors*=round(2**(years/2))
     print(f"{Transistors:,}")
 
-    if_name_=="_main_":
+ if_name_=="_main_":
     main()
-    
+
