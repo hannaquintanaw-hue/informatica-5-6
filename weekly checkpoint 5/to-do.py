@@ -9,7 +9,15 @@ def main():
             new_task = input("Enter new task: ")
             tasks.append(new_task)
         elif command == "complete":
-            
+            outtask = input("Which task are you removing? ")
+            tasks.remove(outtask)
+        elif command == "correct":
+            rewrite = input("What task are you rewriting? ")
+            command = [rewrite] = comand
+        elif command == "stop":
+            break
+
+
 
 
 

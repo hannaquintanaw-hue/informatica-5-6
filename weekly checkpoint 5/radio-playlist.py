@@ -7,7 +7,7 @@ def main():
     playlist.pop(4)
     print(playlist)
     print(playlist.index("Risk It All"))
-    print("Number of sings in playlist:" len(playlist))
+    print(f"Number of sings in playlist: {len(playlist)}")
     playlist.reverse()
     print(playlist)
     playlist.sort()
