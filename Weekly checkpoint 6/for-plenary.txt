@@ -1,0 +1,10 @@
+1. Write a description for a while loop.
+    A while loop is repetition
+
+2. Write a description for a for loop.
+    It would be infinite, you can't stop it unless something changes
+
+3. Compare a while loop to a for loop.
+    A for loop is a number of iterations to determine when loops are set up and a while loop doesn't know how many iterations it will perform 
+
+
