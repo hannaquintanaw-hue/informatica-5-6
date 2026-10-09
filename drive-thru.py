@@ -3,14 +3,14 @@ def main():
     user_order = input("What would you like to order?: ")
     get_item(user_order)
 
-    def welcome()
+def welcome():
         menu = ["Fries", "Sodas", "Hamburgers"]
         print("Welcome to To Chimichangas y mas")
         print("Here's the menu")
         for i in range(len(menu)):
             print(f"{i+1}. {menu[i]}")
 
-    def get_item(order):
+def get_item(order):
         order = order.strip().lower()
         if order == "Fries" or order == "1":
             print("Enjoy! 🍟")
@@ -19,8 +19,10 @@ def main():
         elif order == "Hamburgers" or order == "3":
             print("Enjoy! 🍔")
 
-
-
-
+        else:
+            print("❌ Option is not found")
 if __name__ == "__main__":
-    main()
+        main()
+
+
+
