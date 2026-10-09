@@ -5,8 +5,7 @@ def main():
 
 
 
-  binary = int(input("Enter a binary decimal: "))
-    binary_to_decimal(binary)
+
 
 
 
